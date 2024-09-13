@@ -5,7 +5,7 @@ const amazonGiftCardCode = 'AMZ-GIFT-12345';  // Replace this with your actual g
 
 // Time settings (4:00 PM to 9:00 PM)
 const gameStartTime = 16;  // Game starts at 16:00 (4:00 PM)
-const gameEndTime = 21;    // Game ends at 21:00 (9:00 PM)
+const gameEndTime = 24;    // Game ends at 24:00 (12:00 AM)
 
 // Cuss words array
 const cussWords = ["Damn!", "Hell!", "Crap!", "Freak!", "Blast it!"];
@@ -46,7 +46,7 @@ function checkGameTime(now) {
     } else {
         wordInput.disabled = true;
         guessBtn.disabled = true;
-        timingMessage.textContent = "Sorry, the game can only be played between 4:00 PM and 9:00 PM.";
+        timingMessage.textContent = "Sorry, the game can only be played between 4:00 PM and 12:00 AM.";
     }
 }
 
