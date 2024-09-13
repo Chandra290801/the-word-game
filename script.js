@@ -8,7 +8,7 @@ const gameStartTime = 16;  // Game starts at 16:00 (4:00 PM)
 const gameEndTime = 24;    // Game ends at 24:00 (12:00 AM)
 
 // Cuss words array
-const cussWords = ["Damn!", "Hell!", "Crap!", "Freak!", "Blast it!"];
+const cussWords = ["mother fucker!", "you cheap shit!", "bastard!", "you moron!", "bitch!"];
 
 // Elements from HTML
 const clue = document.getElementById('clue');
